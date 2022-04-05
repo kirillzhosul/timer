@@ -2,7 +2,7 @@
   "name": "timer",
   "version": "1.0.0",
   "description": "Cross-platform desktop timer application built with Electron JS.",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
