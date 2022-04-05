@@ -2,14 +2,16 @@
 <head>
     <meta charset="UTF-8">
 
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
-    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
-
     <title>Timer App</title>
 
     <link rel="stylesheet" href="index.css">
+    <script src="./timer.js"></script>
     <script src="./renderer.js"></script>
 </head>
 <body>
     <h1>Timer App.</h1>
+    <h3 id="counter_left"></h3>
+
+    <input type="button" id="button_switch" value="" onclick="onSwitch()">
+    <input type="button" id="button_reset" value="Reset" onclick="onReset()">
 </body>
