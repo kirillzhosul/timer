@@ -12,7 +12,7 @@ const createWindow = () => {
         height: 600
     });
 
-    window.loadFile("index.html");
+    window.loadFile("./app/index.html");
 
     return window;
 }
@@ -20,4 +20,17 @@ const createWindow = () => {
 // Entry point.
 app.whenReady().then(() => {
     createWindow();
+
+    app.on("activate", () => {
+        if (BrowserWindow.getAllWindows().length === 0){
+            createWindow();
+        }
+    });
+});
+
+// Close handler.
+app.on("window-all-closed", () => {
+    if (process.platform !== "darwin"){
+        app.quit();
+    }
 });
