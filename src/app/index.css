@@ -1,0 +1,29 @@
+body {
+    font-family: "Roboto", "Arial", sans-serif;
+}
+
+.header{
+    text-align: center;
+    font-size: 200%;
+}
+.buttons{
+    text-align: center;
+}
+.button{
+    appearance: none;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 16px;
+}
+.button#button_switch{
+    background: #4676D7;
+}
+.button#button_reset{
+    background: #bb342b;
+}
+.timer{
+    text-align: center;
+    font-size: 400%;
+}

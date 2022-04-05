@@ -8,9 +8,14 @@ const {app, BrowserWindow} = require("electron");
 const createWindow = () => {
     /// @description Creating Electron browser window.
     const window = new BrowserWindow({
-        width: 800,
-        height: 600
+        width: 350,
+        height: 350,
+        center: true,
+        title: "Timer",
+        autoHideMenuBar: true,
+        resizable: false
     });
+
 
     window.loadFile("./app/index.html");
 

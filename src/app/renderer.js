@@ -28,7 +28,7 @@ const onSwitch = () => {
 
 const _updateInterface = () =>{
     /// @description Updates text representation of the counter.
-    document.getElementById("counter_left").innerText = _timerToString();
+    document.getElementById("timer").innerText = _timerToString();
     document.getElementById("button_switch").value = isRunning ? "Pause" : (_timerWasStarted() ? "Continue" : "Start");
 }
 

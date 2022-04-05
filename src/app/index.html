@@ -2,16 +2,19 @@
 <head>
     <meta charset="UTF-8">
 
-    <title>Timer App</title>
+    <title>Timer</title>
 
     <link rel="stylesheet" href="index.css">
     <script src="./timer.js"></script>
     <script src="./renderer.js"></script>
 </head>
 <body>
-    <h1>Timer App.</h1>
-    <h3 id="counter_left"></h3>
+    <h1 class="header">Timer</h1>
+    <hr>
+    <h1 id="timer" class="timer"></h1>
 
-    <input type="button" id="button_switch" value="" onclick="onSwitch()">
-    <input type="button" id="button_reset" value="Reset" onclick="onReset()">
+    <div class="buttons">
+        <input type="button" class="button" id="button_switch" value="" onclick="onSwitch()">
+        <input type="button" class="button" id="button_reset" value="Reset" onclick="onReset()">
+    </div>
 </body>
