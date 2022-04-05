@@ -1,0 +1,28 @@
+{
+  "name": "timer",
+  "version": "1.0.0",
+  "description": "Cross-platform desktop timer application built with Electron JS.",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirillzhosul/timer.git"
+  },
+  "keywords": [
+    "timer",
+    "js",
+    "electron",
+    "application"
+  ],
+  "author": "Kirill Zhosul",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kirillzhosul/timer/issues"
+  },
+  "homepage": "https://github.com/kirillzhosul/timer#readme",
+  "devDependencies": {
+    "electron": "^18.0.1"
+  }
+}
